@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sfpopos/static/css/main.82f9b7ca.css",
+    "main.js": "/sfpopos/static/js/main.e8390da5.js",
+    "static/js/787.9ad95fba.chunk.js": "/sfpopos/static/js/787.9ad95fba.chunk.js",
+    "index.html": "/sfpopos/index.html",
+    "main.82f9b7ca.css.map": "/sfpopos/static/css/main.82f9b7ca.css.map",
+    "main.e8390da5.js.map": "/sfpopos/static/js/main.e8390da5.js.map",
+    "787.9ad95fba.chunk.js.map": "/sfpopos/static/js/787.9ad95fba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82f9b7ca.css",
+    "static/js/main.e8390da5.js"
+  ]
+}
