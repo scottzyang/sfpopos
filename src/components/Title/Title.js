@@ -11,12 +11,14 @@ function Title() {
         <div className="Title-Subtitle">San Franciscos Privately Owned Public Spaces</div>
 
         <div>
-        <NavLink 
+        <NavLink
 	        className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
 	        to="/">List</NavLink>
-        <NavLink 
+        <NavLink
 	        className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" }
           to="/about">About</NavLink>
+        <NavLink
+          className={({ isActive }) => isActive ? "nav-link-active" : "nav-link" } to="/newsletter">Newsletter</NavLink>
           <RandomSpace />
         </div>
       </header>

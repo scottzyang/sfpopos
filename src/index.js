@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import POPOSList from './components/POPOSList/POPOSList';
 import About from './components/About/About';
 import POPOSDetails from './components/POPOSDetails/POPOSDetails';
+import NewsLetter from './components/Newsletter/Newsletter'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -16,6 +17,7 @@ root.render(
       <Route path="/" element={<App />}>
         <Route path="/" element={<POPOSList />} />
         <Route path="about" element={<About />} />
+        <Route path="/newsletter" element={<NewsLetter />} />
         <Route path="/details/:id" element={<POPOSDetails />} />
       </Route>
     </Routes>
