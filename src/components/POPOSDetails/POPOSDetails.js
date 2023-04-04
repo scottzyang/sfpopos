@@ -7,7 +7,7 @@ import './POPOSDetails.css'
 function POPOSDetails(props) {
   const params = useParams()
   const { id } = params // Location index
-  const { images, title, desc, hours, features, geo } = data[id]
+  const { images, title, desc, hours, features, } = data[id]
 
   return (
     <div className="POPOSDetails">
@@ -17,9 +17,8 @@ function POPOSDetails(props) {
       <div className="POPOSDetails-info">
         <h1 className="POPOSDetails-title">{ title }</h1>
         <p className="POPOSDetails-desc">{ desc }</p>
-        <p className="POPOSDetails-hours">{ hours }</p>
+        { hours !== "" ? <p className="POPOSDetails-hours">{ hours }</p> : <p className="POPOSDetails-hours">Hours Currently Unavailable</p>}
         <POPOSFeatureList features={features}/>
-        <p className="POPOSDetails-geo">Coordinates: { geo.lat } { geo.lon }</p>
       </div>
     </div>
   )

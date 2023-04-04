@@ -8,7 +8,7 @@
 .POPOSDetails .POPOSDetails-info {
   flex: 1;
   text-align: left;
-  padding: 0 1em;
+  padding: 1em;
 }
 
 .POPOSDetails .POPOSDetails-title {
@@ -22,8 +22,26 @@
 
 .POPOSDetails .POPOSDetails-image img {
   width: 100%;
+  padding: 1em;
 }
 
 .POPOSDetails .POPOSDetails-hours {
   font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .POPOSDetails {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .POPOSDetails {
+    width: 100%;
+  }
+
+  .POPOSDetails .POPOSDetails-image img {
+    width: 100%
+  }
 }
