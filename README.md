@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Wireframe
+
+[View Wireframe in Figma](https://www.figma.com/file/GHJ1osiNmpidIhkgMkApLt/SFPOPOS---Wireframe?node-id=0%3A1&t=hL6cPZw9YFYWJicq-1)
+
 ## Available Scripts
 
 In the project directory, you can run:
