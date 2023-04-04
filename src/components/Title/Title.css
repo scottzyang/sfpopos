@@ -29,3 +29,27 @@
   color: #fff;
   border-bottom: 2px solid;
 }
+
+.mobile-header {
+  display: none;
+}
+
+@media (max-width: 575px) {
+  .desktop-header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: block;
+  }
+
+  .Title-Subtitle {
+    font-size: 80%;
+  }
+
+  .Title {
+    padding: 0;
+    margin-bottom: 0;
+    align-items: normal;
+  }
+}

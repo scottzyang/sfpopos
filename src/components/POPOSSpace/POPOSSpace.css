@@ -9,6 +9,12 @@
   height: auto;
 }
 
+/* @media (min-width: 375px) {
+  .POPOSSpace-info-phone {
+    visibility: hidden;
+  }
+} */
+
 .hours {
   color: red;
   font-style: italic;
@@ -39,8 +45,49 @@
   text-align: right;
 }
 
+.POPOSSpace .POPOSSpace-info-phone {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+
 .POPOSSpace .POPOSSpace-info div {
   display: inline-block;
   padding: 0.25em 0.5em;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.POPOSSpace .POPOSSpace-info-phone p {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.POPOSSpace .POPOSSpace-phone-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.POPOSSpace-info-phone {
+  display: none;
+}
+
+/* Once the screen hits 375, fill the 100% of the screen with width */
+@media (max-width: 375px) {
+  .POPOSSpace {
+    width: 100%;
+  }
+
+  .POPOSSpace h1 {
+    font-size: 150%;
+  }
+
+  .POPOSSpace-info-phone {
+    display: block;
+  }
+
+  .POPOSSpace-info {
+    display: none;
+  }
 }

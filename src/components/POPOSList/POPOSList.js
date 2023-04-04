@@ -11,7 +11,7 @@ function POPOSList() {
     return inTitle || inAddress })
   .map(({ title, address, images, hours, id } ) =>{
     return (
-      <POPOSSpace       
+      <POPOSSpace
       id={id}
       key={title}
       name={title}

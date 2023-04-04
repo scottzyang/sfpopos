@@ -22,6 +22,13 @@
   }
 }
 
+/* Once the screen hits 375, fill the 100% of the screen with width */
+@media (max-width: 375px) {
+  .POPOSList input {
+    width: 100%
+  }
+}
+
 .POPOSList form {
   display: flex;
   align-items: flex-start;
