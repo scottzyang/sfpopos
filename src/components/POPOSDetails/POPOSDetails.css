@@ -36,12 +36,23 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 960px) {
+  .POPOSDetails {
+    width: 100%;
+  }
+}
+
+@media (max-width: 375px) {
   .POPOSDetails {
     width: 100%;
   }
 
-  .POPOSDetails .POPOSDetails-image img {
-    width: 100%
+  .POPOSDetails .POPOSDetails-title {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .POPOSDetails .POPOSDetails-info {
+    font-size: 0.75em;
   }
 }
