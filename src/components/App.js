@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       {/* <img src={logo} alt="logo for sfpopos" width="250"/> */}
-      <Title />
-      <Outlet />
+      <div className='App-content'>
+        <Title />
+        <Outlet />
+      </div>
       <Footer />
     </div>
   );
