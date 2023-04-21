@@ -11,9 +11,9 @@ function POPOSDetails(props) {
 
   return (
     <section className="POPOSDetails">
-      <section className="POPOSDetails-image">
-        <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt="images"/>
-      </section>
+      <figure className="POPOSDetails-image">
+        <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt="location"/>
+      </figure>
       <section className="POPOSDetails-info">
         <h1 className="POPOSDetails-title">{ title }</h1>
         <p className="POPOSDetails-desc">{ desc }</p>
