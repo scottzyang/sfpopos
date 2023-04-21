@@ -5,14 +5,14 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
+    <section className="App">
       {/* <img src={logo} alt="logo for sfpopos" width="250"/> */}
-      <div className='App-content'>
+      <section className='App-content'>
         <Title />
         <Outlet />
-      </div>
+      </section>
       <Footer />
-    </div>
+    </section>
   );
 }
 

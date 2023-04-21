@@ -10,17 +10,17 @@ function POPOSDetails(props) {
   const { images, title, desc, hours, features, } = data[id]
 
   return (
-    <div className="POPOSDetails">
-      <div className="POPOSDetails-image">
+    <section className="POPOSDetails">
+      <section className="POPOSDetails-image">
         <img src={`${process.env.PUBLIC_URL}/images/${images[0]}`} alt="images"/>
-      </div>
-      <div className="POPOSDetails-info">
+      </section>
+      <section className="POPOSDetails-info">
         <h1 className="POPOSDetails-title">{ title }</h1>
         <p className="POPOSDetails-desc">{ desc }</p>
         { hours !== "" ? <p className="POPOSDetails-hours">{ hours }</p> : <p className="POPOSDetails-hours">Hours Currently Unavailable</p>}
         <POPOSFeatureList features={features}/>
-      </div>
-    </div>
+      </section>
+    </section>
   )
 }
 

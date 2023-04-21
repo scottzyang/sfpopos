@@ -20,7 +20,7 @@ function getFeature(str) {
 
 function POPOSFeature(props) {
 	const emoji = getFeature(props.name)
-	return <div className="POPOSFeature">{emoji}</div>
+	return <section className="POPOSFeature">{emoji}</section>
 }
 
 export default POPOSFeature
